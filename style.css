@@ -1,45 +1,45 @@
 @font-face {
-    font-family: "inter" ;
+    font-family: "Inter";
     src: url("./assets/fonts/static/Inter-Regular.ttf");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "inter";
+    font-family: "Inter";
     src: url("./assets/fonts/static/Inter-SemiBold.ttf");
-font-weight: 600;
-font-style: normal;
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "inter";
+    font-family: "Inter";
     src: url("./assets/fonts/static/Inter-Bold.ttf");
-font-weight: 700;
-font-style: normal;
+    font-weight: 700;
+    font-style: normal;
 }
 
 
-*{
-margin: 0;
-padding: 0;
-list-style: none;
-box-sizing: border-box;
-text-decoration: none;
-box-sizing: border-box;
+/* Seletor Global * = Serve para selecionar todos os elementos */
+/* Reset de estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
-html,body{
+html, body{
     height: 100%;
 }
 
 body{
-    font-family: "inter", sans-serif;
-background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif ;
+    background-color: hsl(0, 0%, 8%);
 }
 
 main{
- 
     height: 100%;
     width: 100%;
 
@@ -48,43 +48,42 @@ main{
 }
 
 section{
-    background-color:  hsl(0, 0%, 12%) ;
-width: 100%;
-max-width: 320px;
-border-radius: 16px;
-padding: 24px;
+    background-color: hsl(0, 0%, 12%);
+    width: 100%;
+    max-width: 320px;
+    border-radius: 16px;
+    padding: 24px;
 
-text-align: center;
+    text-align: center;
 }
 
-img{
+img {
     height: 90px;
     width: 90px;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: center 30%;
 }
 
-   h1 {
+h1{
     color: hsl(0, 0%, 100%);
-    font-size: 24px;
-    text-align: center;
     margin-top: 28px;
-    margin-bottom: 35px;
+    font-size: 24px;
 }
 
-h2 {
+h2{
     color: hsl(75, 94%, 57%);
     font-size: 14px;
-    text-align: center;
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 28px;
 }
 
-p {
-    color: hsl(0, 0%, 100%);
+p{
+    color: hsla(0, 0%, 100%, 0.642);
     font-size: 14px;
     font-weight: 400;
-    margin-top: 8px;
+    margin-top: 28px;
     margin-bottom: 28px;
-    text-align: center;
 }
 
 li{
@@ -92,7 +91,7 @@ li{
 }
 
 li:last-child{
-    margin-bottom: 0 ;
+    margin-bottom: 0;
 }
 
 a{
@@ -102,16 +101,16 @@ a{
     
     display: inline-block;
     width: 100%;
-    border-radius: 8px ;
+    border-radius: 8px;
 
-padding-top: 14px;
-padding-bottom: 14px;
-
-margin-bottom: 20px;
-    
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 a:hover{
-background-color: hsl(75, 94%, 57%);
-color: hsl(0, 0%, 8%);
+    background-color:hsl(75, 94%, 57%) ;
+
+    color: hsl(0, 0%, 8%);
 }
+
+
